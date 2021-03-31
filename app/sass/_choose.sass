@@ -1,0 +1,147 @@
+.choose
+  background-color: rgba(255, 185, 141, 0.05)
+  .container
+    display: flex
+    flex-direction: column
+    max-width: 1200px
+    padding-bottom: 57px
+    @media (max-width: 1240px)
+      padding: 0 20px 57px 0
+    @media (max-width: 412px)
+      overflow: hidden
+      padding: 0
+    .choose__images
+      position: relative
+      .choose-water
+        max-width: 100%
+        z-index: 0
+        @media (max-width: 412px)
+          position: absolute
+          max-width: 645px
+          left: -20%
+      .choose-auto
+        width: 95.3%
+        position: absolute
+        transform: translateX(-50%)
+        left: 50%
+        top: -2.8%
+        opacity: 0
+        transition-duration: 1.6s
+        @media (max-width: 412px)
+          width: 607px
+          transform: translateX(0)
+          left: -12%
+      .choose-man
+        position: absolute
+        transform: translateX(-50%)
+        left: 50%
+        top: 7.2%
+        width: 24.6%
+        z-index: 1
+        opacity: 0
+        transition-duration: 1.6s
+        @media (max-width: 412px)
+          width: 175px
+          left: 60%
+      .choose-pool
+        width: 59.3%
+        position: absolute
+        transform: translateX(-50%)
+        left: 50%
+        top: 15.7%
+        opacity: 0
+        transition-duration: 1.6s
+        @media (max-width: 412px)
+          width: 500px
+          transform: translateX(0)
+          left: -14%
+      .choose-active
+        opacity: 1
+      .choose__social
+        z-index: 1
+        position: absolute
+        top: 45.4%
+        right: 0
+        display: flex
+        flex-direction: column
+        @media (max-width: 1024px)
+          transform: translateY(-50%)
+          top: 50%
+        @media (max-width: 412px)
+          display: none
+        a
+          &:first-child
+            max-width: 16px
+            margin: 0 auto 32px auto
+          &:last-child
+            max-width: 32px
+    h1
+      z-index: 1
+      text-align: center
+      font-family: Arial, sans-serif
+      font-style: normal
+      font-weight: bold
+      font-size: 38px
+      line-height: 44px
+      color: #003CA6
+      margin: -60px auto 0 auto
+      padding: 0 20px
+      @media (max-width: 1024px)
+        margin-top: 0
+      @media (max-width: 412px)
+        margin-top: 330px
+        padding: 0 34px
+        font-size: 28px
+        line-height: 32px
+    p
+      font-family: Arciform Sans, sans-serif
+      font-size: 16px
+      line-height: 16px
+      color: #6E3628
+      text-align: center
+      margin: 9px auto 0 auto
+      padding: 0 20px
+      @media (max-width: 412px)
+        display: none
+    .choose__download
+      margin: 42px auto 0 auto
+      display: flex
+      width: 100%
+      max-width: 416px
+      justify-content: space-between
+      @media (max-width: 412px)
+        flex-direction: column
+      a
+        margin: 0 auto
+        &:first-child
+          max-width: 209px
+          @media (max-width: 412px)
+            max-width: 175px
+        &:last-child
+          margin-top: 3px
+          max-width: 200px
+          @media (max-width: 412px)
+            max-width: 168px
+            margin-top: 15px
+        img
+          &:first-child
+            width: 100%
+          &:last-child
+            width: 100%
+    .choose__social-mobile
+      display: none
+      max-width: 65px
+      justify-content: space-between
+      margin: 61px auto 18px auto
+      @media (max-width: 412px)
+        display: flex
+      img
+        &:first-child
+          margin-right: 17px
+
+
+
+
+
+
+

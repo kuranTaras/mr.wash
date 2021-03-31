@@ -1,0 +1,45 @@
+.app
+  .container
+    flex-direction: column
+    display: flex
+    margin-top: 166px
+    max-width: 600px
+    margin-bottom: 68px
+    @media (max-width: 640px)
+      padding: 0 20px
+    @media (max-width: 412px)
+      margin-top: 114px
+      margin-bottom: 84px
+    h1
+      font-family: Arial, sans-serif
+      font-style: normal
+      font-weight: bold
+      font-size: 32px
+      line-height: 37px
+      color: #003CA6
+      text-align: center
+      @media (max-width: 412px)
+        font-size: 32px
+        line-height: 37px
+    .app__download
+      display: flex
+      margin: 59px auto 0 auto
+      width: 100%
+      max-width: 416px
+      justify-content: space-between
+      @media (max-width: 412px)
+        flex-direction: column
+        align-items: center
+      a
+        &:first-child
+          max-width: 209px
+        &:last-child
+          max-width: 200px
+          margin-top: 3px
+        img
+          &:first-child
+            max-width: 100%
+            @media (max-width: 412px)
+              margin-bottom: 13px
+          &:last-child
+            width: 100%
